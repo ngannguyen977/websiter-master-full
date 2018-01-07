@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<path fill="#E0E0E0" d="M15,1c7.7,0,14,6.3,14,14c0,7.7-6.3,14-14,14S1,22.7,1,15C1,7.3,7.3,1,15,1 M15,0C6.7,0,0,6.7,0,15
+	c0,8.3,6.7,15,15,15c8.3,0,15-6.7,15-15C30,6.7,23.3,0,15,0L15,0z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M4,15c0,5.6,4.2,10.2,9.6,10.9h2.8C21.8,25.2,26,20.6,26,15
+	c0-6.1-4.9-11-11-11h0C8.9,4,4,8.9,4,15z"/>
+<g>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#ED1C24" d="M6.2,21.5l6.3-3.9h-2.4l-4.6,2.8C5.7,20.9,5.9,21.2,6.2,21.5z"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#ED1C24" d="M24.5,20.6c0.2-0.3,0.4-0.6,0.5-1l-3.3-1.9h-2.1L24.5,20.6z"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#ED1C24" d="M16.6,4.1C16.1,4.1,15.5,4,15,4h0c-0.5,0-1,0-1.5,0.1v9.1H4.2
+		C4.1,13.8,4,14.4,4,15c0,0.6,0.1,1.2,0.2,1.8h9.3v9.1c0.5,0.1,0.9,0.1,1.4,0.1h0.3c0.5,0,1-0.1,1.5-0.1v-9.1h9.2
+		c0.1-0.6,0.2-1.2,0.2-1.8c0-0.6-0.1-1.2-0.2-1.8h-9.2V4.1z"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#ED1C24" d="M23.8,8.5l-6.2,3.8H20l4.5-2.8C24.3,9.2,24.1,8.8,23.8,8.5z"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#ED1C24" d="M5.6,9.4c-0.2,0.3-0.4,0.6-0.5,1l3.3,2h2.1L5.6,9.4z"/>
+</g>
+<g>
+	<path fill="#273E76" d="M23.2,17.7l2.1,1.2c0.1-0.4,0.3-0.8,0.4-1.2H23.2z"/>
+	<path fill="#273E76" d="M17.6,4.3v6.9l5.7-3.5C21.8,6.1,19.9,4.9,17.6,4.3z"/>
+	<path fill="#273E76" d="M23.2,12.3l2.4,0c-0.1-0.4-0.2-0.8-0.4-1.2L23.2,12.3z"/>
+	<path fill="#273E76" d="M23.3,22.2l-5.7-3.5v7C19.9,25.1,21.9,23.9,23.3,22.2z"/>
+	<path fill="#273E76" d="M12.5,25.7v-7l-5.8,3.5C8.2,23.9,10.2,25.2,12.5,25.7z"/>
+	<path fill="#273E76" d="M6.7,7.8l5.8,3.5v-7C10.2,4.8,8.2,6.1,6.7,7.8z"/>
+	<path fill="#273E76" d="M4.3,17.7c0.1,0.4,0.2,0.9,0.4,1.3l2.2-1.3H4.3z"/>
+	<path fill="#273E76" d="M4.4,12.3h2.6L4.8,11C4.6,11.4,4.5,11.9,4.4,12.3z"/>
+</g>
+</svg>

@@ -1,0 +1,50 @@
+
+.radio-group label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 35px;
+	margin-right: 15px;
+	font-size: 13px;
+    min-height:32px;
+    padding-top:5px;
+    color:#e77e23; font-weight:bold;
+}
+
+input[type=radio],
+input[type=checkbox] {
+	display: none;
+}
+.radio-group label:before {
+	content: "";
+	display: inline-block;
+
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	position: absolute;
+	left: 0;
+	top: 0px;
+	background:url(images/check.png)center center no-repeat; 
+}
+
+
+.checkbox label {
+	margin-bottom: 10px;
+}
+
+.radio-group input[type=radio]:checked + label:before {
+	background:url(images/check-act.png) left center no-repeat; width:30px; height:30px;
+    color: #f3f3f3;
+    font-size: 30px;
+    text-align: center;
+    line-height: 18px;
+}
+
+input[type=checkbox]:checked + label:before {
+	font-size: 15px;
+	color: #f3f3f3;
+	text-align: center;
+    line-height: 15px;
+
+}
