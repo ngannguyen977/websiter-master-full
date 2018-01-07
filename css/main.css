@@ -117,7 +117,7 @@ section{height:100vh; width:100vw;}
     bottom: 70px;
     box-shadow: 1px 0px 20px 10px rgba(120, 105, 158, 0.35);
 }
-.navbar-toggle i::before{color:#a71930;}
+.navbar-toggle i::before{color:#071c33;}
 .bg-clip-text {
 	font-size: 15em;
     text-align: left;
@@ -127,7 +127,7 @@ section{height:100vh; width:100vw;}
     background-clip: text;
     color: rgba(0,0,0,0);
     font-weight: bold;
-
+    margin-bottom: -20px;
 }
 .txt-larg{
 	font-size: 5em;
@@ -178,7 +178,7 @@ section{height:100vh; width:100vw;}
     display: flex;
     align-items: center;
     background: #e0e3e6;
-    height: 113px;
+    height: 115px;
 }
 .vid-list-container .vid-item:nth-child(odd){
    background: #d3d8de;
@@ -220,7 +220,7 @@ section{height:100vh; width:100vw;}
 #project .item-link{
     color: #fff;
     border-radius: 20px;
-        padding: 8px 70px;
+        padding:10px 70px;
        background: linear-gradient(to right,#31159e 0%,#1779dc 100%);
 }
 #project .pro-item{
@@ -259,9 +259,11 @@ section{height:100vh; width:100vw;}
     color: #a71930;
     font-weight: 300;
 }
+#attachment, #partner-sec{padding-bottom: 40px;}
 #attachment {
     position: relative;
     background: rgb(236, 239, 243);
+    
 }
 #attachment::before{
     background: url("../images/trump-light.png");
@@ -304,14 +306,15 @@ section{height:100vh; width:100vw;}
 
 .news-content-middle{color:#fff;}
 .news-info{
-
+    padding: 5px 20px 35px 20px;
 }
+.news-info .btn-more-blue{margin-top: 10px;}
 .news-info small{
     font-size: 16px;
     color: #9E9E9E;
 }
 .news-info i::before{
-    font-size: 18px;
+    font-size: 15px;
     color: #de4e67;
     font-weight: bold;
 }

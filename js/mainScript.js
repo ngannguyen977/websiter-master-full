@@ -19,7 +19,7 @@ var slide = $(".bxslider  li");
     function loadscrollfullpage() {
     var ua = window.navigator.userAgent;
     var msie = ua.indexOf("MSIE ");
-    if ($(window).width() > 992 ){
+    if ($(window).width() > 1290 ){
         if ( msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
         
             lsfullpage = $('#fullpage').fullpage({
