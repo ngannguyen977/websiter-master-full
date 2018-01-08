@@ -29,6 +29,7 @@
     padding:0px;
 }
  a{
+    color:#999;
     text-decoration:none;
     cursor:pointer;
     -webkit-transition:all .25s ease-in-out;
@@ -83,11 +84,6 @@
  .page-header .navbar-collapse.collapse{
     position:relative;
 }
- .page-header .navbar-nav li.home a{
-    display:block;
-    background:url('../images/icon/ico-home.svg') no-repeat top 12px center;
-    text-indent:-9999px;
-}
 .page-header ul.navbar-nav{
     padding:0px;
     top: 20px;
@@ -132,20 +128,11 @@
     -o-transition:all .25s ease-in-out;
     transition:all .25s ease-in-out;
 }
- .page-header ul.navbar-nav li.home:hover, .page-header ul.navbar-nav li.home.active{
-    border-bottom-color:transparent;
-}
  .page-header ul.navbar-nav li.menu-controls{
     margin-right:0px;
      position:absolute;
      top:-35px;
      right:0px;
-}
- .page-header ul.navbar-nav li.menu-controls:hover, .page-header ul.navbar-nav li.menu-controls.active{
-    background:transparent;
-}
- .page-header ul.navbar-nav li.menu-controls:hover a:after, .page-header ul.navbar-nav li.menu-controls.active a:after{
-    border-top-color:transparent;
 }
  .page-header ul.navbar-nav li.menu-controls .social-list{
     position:relative;
@@ -369,11 +356,10 @@
 .section-content .item-title {
     font-size: 35px;
     text-transform: uppercase;
-    margin-bottom: 20px;
     font-family: 'Open Sans', sans-serif;
-    margin-bottom: 5%;
+    margin-bottom: 40px;
     position: relative;
-    margin-top: 5%;
+    margin-top: 15px;
     color: #052b54;
         z-index: 2;
 }
@@ -390,7 +376,7 @@
      left: 0px;
      top: -3px;
      content: '';
-    width: 7px;
+        width: 7px;
      height: 7px;
      background:#d49f0b;
      border-radius: 50%;
@@ -402,7 +388,7 @@
  .section-content .item-description{
     margin-bottom: 50px;
     text-align: justify;
-        padding: 20px 40px;
+    padding: 20px 40px;
 }
  .section-content .item-icon{
     margin-bottom: 20px;
@@ -1873,7 +1859,8 @@
     }
 
 }
-@media screen and (max-width:1290px) {
+@media screen and (max-width:1295px) {
+    section{height:auto;}
     .border-blue {
         left: 0 !important;
         top: 10% !important;
@@ -1886,7 +1873,7 @@
     .company-name{display: none;}
     .main-logo {width: 10%;}
     .select-group .search, .select-group .select-language{width:80px !important;}
-    .par-item {padding: 10px 40px 56px!important;}
+
     .service li{font-size: 13px;}
     .menu-right{width:90%;}
     .txt-medium {font-size: 2.5em !important;}
