@@ -1,6 +1,6 @@
 .home{border-radius: 50%;}
 .home img{    width: 23px;padding-top: 10px;}
-section{height:100vh; width:100vw;}
+section{height:100vh !important; width:100vw;}
 .nopadding{padding-left:0;padding-right:0;}
 .main-logo a{float: left;}
 .company-name{
@@ -262,7 +262,7 @@ section{height:100vh; width:100vw;}
 #attachment {
     position: relative;
     background: rgb(236, 239, 243);
-    
+        padding-top: 90px;
 }
 #attachment::before{
     background: url("../images/trump-light.png");
@@ -306,6 +306,7 @@ section{height:100vh; width:100vw;}
 .news-content-middle{color:#fff;}
 .news-info{
     padding: 5px 20px 35px 20px;
+    background: #eceff3;
 }
 .news-info .btn-more-blue{margin-top: 10px;}
 .news-info small{
@@ -320,7 +321,7 @@ section{height:100vh; width:100vw;}
 .news-info .news-title{
     font-weight: bold;
     color: #435d79;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.4em;
 }
 .partner-list{
@@ -419,16 +420,69 @@ section{height:100vh; width:100vw;}
     margin: 0 auto;
     top: 0;
 }
+/* FOOTER */
+footer{
+    color: #fff;
+    position: relative;
+}
 .footer-top{
-   height: 180px;
-    background: #eceff3;
-    border-top: 1px solid #aa172f;
+  background: #eceff3;
+    text-align: center;
+    padding: 20px 0 40px 0;
+    position: relative;
+}
+.footer-top h3{
+   color: #052b54;
+    font-weight: bold;
+}
+.footer-top form{margin-top: 20px;}
+.footer-top p{
+        font-size: 15px;
+    color: #445e79;
+    font-weight: 500;
+}
+.footer-top .form-control{
+    border-radius: 30px;
+    width: 230px;
+    font-size: 13px;
+    margin: 0 10px;
+    border: 1px solid #dbdee2;
+    box-shadow: none;
+}
+.footer-body i::before{
+    color: #e31851;
+    font-size: 40px;
+}
+.footer-body ul li{float: left;margin-right: 30px;}
+.footer-body ul li i::before{
+    font-size: 25px;
+    color: #0089d2;
 }
 .footer-top span{
     background: #a71930;
     width: 200px;
 }
-
+.footer-top img{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: .5;
+}
+.footer-body{
+    padding: 130px 20px 0 20px;
+}
+.footer-bottom{
+       height: 40px;
+    background: #aa162e;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 80px;
+    line-height: 39px;
+    font-size: 13px;
+    color: #eceff3
+}
 .section-footer{
     background: url("../images/bg-footer.jpg") no-repeat bottom;
     height: 400px;
