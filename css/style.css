@@ -258,18 +258,18 @@
     position: relative;
 }
  .btn-round{
-    min-width: 170px;
+    min-width: 155px;
      text-align: center;
      color: #fff;
      border:0;
      border-radius: 18px;
-     padding: 10px 50px;
+     padding: 8px 30px;
      border-radius: 30px;
      position: relative;
-     margin-top: 15px;
+     margin-top: 35px;
      background-image: linear-gradient(to right,#e7174d 0,#b82b7b 51%,#e7174d 100%);
     background-size: 200% auto;
-    box-shadow: 1px 0px 20px 10px rgba(121, 115, 185, 0.26);
+    /* box-shadow: 1px 0px 20px 10px rgba(121, 115, 185, 0.26); */
 }
  .btn-round:hover{
     background: #ac172f;
@@ -357,7 +357,7 @@
     font-size: 35px;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     position: relative;
     margin-top: 15px;
     color: #052b54;
@@ -441,6 +441,7 @@
  .section-content .box-news{
     padding: 0px 50px;
 }
+.news-info {text-align:center; }
  .section-content .box-contact{
     padding: 0px 75px 0 25px;
 }
@@ -498,11 +499,15 @@
     background:#fff url('../images/svg/bt-slide-next.svg') no-repeat center center;
      right:65px;
      opacity:0.5;
+     border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
  .home-gallery .bx-wrapper .bx-prev{
     background:#fff url('../images/svg/bt-slide-prev.svg') no-repeat center center;
      left:10px;
      opacity:0.5;
+     border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
  .home-gallery .bx-wrapper .bx-next:hover{
     background:#fff url('../images/svg/bt-slide-next.svg') no-repeat center center;
@@ -1254,7 +1259,7 @@
  @media screen and (max-width:991px) {
    
 
-   
+
      .navbar-toggle{
         display:block;
         float:left;
@@ -1849,6 +1854,7 @@
         left: 0 !important;
         top: 10% !important;
     }
+   
     #project .item-title{margin-bottom: 40px;}
     #section1{margin-bottom: 40px;}
     .page-header ul.navbar-nav li a {font-size: 13px}
@@ -1869,9 +1875,8 @@
     .section-content .item-description {padding: 0 10px;}
     .news-info .news-title {font-size: 18px !important;}
 }
- @media screen and (max-width:370px) {
-     
-}
+      enter;}
+
  @media screen and (max-width:320px) {
    
     
