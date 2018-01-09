@@ -23,7 +23,7 @@ var slide = $(".bxslider  li");
         if ( msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
         
             lsfullpage = $('#fullpage').fullpage({
-                anchors: ['slidehome', 'overview', 'location', 'modelhouse', 'video', 'utilities', 'news','footer'],
+                
                 menu: '#fullpage_nav ul',
                 verticalCentered:false,
                 scrollOverflow: false,
@@ -58,7 +58,7 @@ var slide = $(".bxslider  li");
         else {      
         
             lsfullpage = $('#fullpage').fullpage({
-                anchors: ['slidehome', 'overview', 'location', 'modelhouse', 'video', 'utilities', 'news','footer'],
+               
                 menu: '#fullpage_nav ul',
                 verticalCentered:false,
                 scrollOverflow: true,
