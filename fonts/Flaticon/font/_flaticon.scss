@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 08/01/2018 07:15
+    Creation date: 09/01/2018 02:28
     */
 
     @font-face {
@@ -36,64 +36,66 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-earth-link:before { content: "\f100"; }
-.flaticon-technology:before { content: "\f101"; }
-.flaticon-people:before { content: "\f102"; }
-.flaticon-play-rounded-button:before { content: "\f103"; }
-.flaticon-play-button:before { content: "\f104"; }
-.flaticon-facebook:before { content: "\f105"; }
-.flaticon-rss-symbol:before { content: "\f106"; }
-.flaticon-arrows-1:before { content: "\f107"; }
-.flaticon-multimedia-1:before { content: "\f108"; }
-.flaticon-square:before { content: "\f109"; }
-.flaticon-clip:before { content: "\f10a"; }
-.flaticon-paper:before { content: "\f10b"; }
-.flaticon-clock:before { content: "\f10c"; }
-.flaticon-menu:before { content: "\f10d"; }
-.flaticon-placeholder-point:before { content: "\f10e"; }
-.flaticon-next:before { content: "\f10f"; }
-.flaticon-multimedia:before { content: "\f110"; }
-.flaticon-arrows:before { content: "\f111"; }
-.flaticon-location-point:before { content: "\f112"; }
-.flaticon-road-straight-line-top-view:before { content: "\f113"; }
-.flaticon-tool:before { content: "\f114"; }
-.flaticon-neighborhood:before { content: "\f115"; }
-.flaticon-factory:before { content: "\f116"; }
-.flaticon-bomb:before { content: "\f117"; }
-.flaticon-worker-of-construction-working-with-a-shovel-beside-material-pile:before { content: "\f118"; }
-.flaticon-magnifier:before { content: "\f119"; }
-.flaticon-youtube-logo:before { content: "\f11a"; }
-.flaticon-message-closed-envelope:before { content: "\f11b"; }
-.flaticon-telephone-handle-silhouette:before { content: "\f11c"; }
-.flaticon-cell-phone:before { content: "\f11d"; }
+    .flaticon-home-page:before { content: "\f100"; }
+.flaticon-earth-link:before { content: "\f101"; }
+.flaticon-technology:before { content: "\f102"; }
+.flaticon-people:before { content: "\f103"; }
+.flaticon-play-rounded-button:before { content: "\f104"; }
+.flaticon-play-button:before { content: "\f105"; }
+.flaticon-facebook:before { content: "\f106"; }
+.flaticon-rss-symbol:before { content: "\f107"; }
+.flaticon-arrows-1:before { content: "\f108"; }
+.flaticon-multimedia-1:before { content: "\f109"; }
+.flaticon-square:before { content: "\f10a"; }
+.flaticon-clip:before { content: "\f10b"; }
+.flaticon-paper:before { content: "\f10c"; }
+.flaticon-clock:before { content: "\f10d"; }
+.flaticon-menu:before { content: "\f10e"; }
+.flaticon-placeholder-point:before { content: "\f10f"; }
+.flaticon-next:before { content: "\f110"; }
+.flaticon-multimedia:before { content: "\f111"; }
+.flaticon-arrows:before { content: "\f112"; }
+.flaticon-location-point:before { content: "\f113"; }
+.flaticon-road-straight-line-top-view:before { content: "\f114"; }
+.flaticon-tool:before { content: "\f115"; }
+.flaticon-neighborhood:before { content: "\f116"; }
+.flaticon-factory:before { content: "\f117"; }
+.flaticon-bomb:before { content: "\f118"; }
+.flaticon-worker-of-construction-working-with-a-shovel-beside-material-pile:before { content: "\f119"; }
+.flaticon-magnifier:before { content: "\f11a"; }
+.flaticon-youtube-logo:before { content: "\f11b"; }
+.flaticon-message-closed-envelope:before { content: "\f11c"; }
+.flaticon-telephone-handle-silhouette:before { content: "\f11d"; }
+.flaticon-cell-phone:before { content: "\f11e"; }
     
-    $font-Flaticon-earth-link: "\f100";
-    $font-Flaticon-technology: "\f101";
-    $font-Flaticon-people: "\f102";
-    $font-Flaticon-play-rounded-button: "\f103";
-    $font-Flaticon-play-button: "\f104";
-    $font-Flaticon-facebook: "\f105";
-    $font-Flaticon-rss-symbol: "\f106";
-    $font-Flaticon-arrows-1: "\f107";
-    $font-Flaticon-multimedia-1: "\f108";
-    $font-Flaticon-square: "\f109";
-    $font-Flaticon-clip: "\f10a";
-    $font-Flaticon-paper: "\f10b";
-    $font-Flaticon-clock: "\f10c";
-    $font-Flaticon-menu: "\f10d";
-    $font-Flaticon-placeholder-point: "\f10e";
-    $font-Flaticon-next: "\f10f";
-    $font-Flaticon-multimedia: "\f110";
-    $font-Flaticon-arrows: "\f111";
-    $font-Flaticon-location-point: "\f112";
-    $font-Flaticon-road-straight-line-top-view: "\f113";
-    $font-Flaticon-tool: "\f114";
-    $font-Flaticon-neighborhood: "\f115";
-    $font-Flaticon-factory: "\f116";
-    $font-Flaticon-bomb: "\f117";
-    $font-Flaticon-worker-of-construction-working-with-a-shovel-beside-material-pile: "\f118";
-    $font-Flaticon-magnifier: "\f119";
-    $font-Flaticon-youtube-logo: "\f11a";
-    $font-Flaticon-message-closed-envelope: "\f11b";
-    $font-Flaticon-telephone-handle-silhouette: "\f11c";
-    $font-Flaticon-cell-phone: "\f11d";
+    $font-Flaticon-home-page: "\f100";
+    $font-Flaticon-earth-link: "\f101";
+    $font-Flaticon-technology: "\f102";
+    $font-Flaticon-people: "\f103";
+    $font-Flaticon-play-rounded-button: "\f104";
+    $font-Flaticon-play-button: "\f105";
+    $font-Flaticon-facebook: "\f106";
+    $font-Flaticon-rss-symbol: "\f107";
+    $font-Flaticon-arrows-1: "\f108";
+    $font-Flaticon-multimedia-1: "\f109";
+    $font-Flaticon-square: "\f10a";
+    $font-Flaticon-clip: "\f10b";
+    $font-Flaticon-paper: "\f10c";
+    $font-Flaticon-clock: "\f10d";
+    $font-Flaticon-menu: "\f10e";
+    $font-Flaticon-placeholder-point: "\f10f";
+    $font-Flaticon-next: "\f110";
+    $font-Flaticon-multimedia: "\f111";
+    $font-Flaticon-arrows: "\f112";
+    $font-Flaticon-location-point: "\f113";
+    $font-Flaticon-road-straight-line-top-view: "\f114";
+    $font-Flaticon-tool: "\f115";
+    $font-Flaticon-neighborhood: "\f116";
+    $font-Flaticon-factory: "\f117";
+    $font-Flaticon-bomb: "\f118";
+    $font-Flaticon-worker-of-construction-working-with-a-shovel-beside-material-pile: "\f119";
+    $font-Flaticon-magnifier: "\f11a";
+    $font-Flaticon-youtube-logo: "\f11b";
+    $font-Flaticon-message-closed-envelope: "\f11c";
+    $font-Flaticon-telephone-handle-silhouette: "\f11d";
+    $font-Flaticon-cell-phone: "\f11e";
